@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+@import 'vendor/h5bp-head.css';
+@import 'vendor/normalize.css';
+@import 'vendor/h5bp-tail.css';
+@import url('https://fonts.googleapis.com/css?family=Abel');
+@import url('https://fonts.googleapis.com/css?family=Assistant:700');
+@import url('https://fonts.googleapis.com/css?family=Vollkorn:400,400i,700');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+@import "compass/css3";
+
+
+/* use a more intuitive box sizing model (http://is.gd/wNVjAo) */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+*, *:before, *:after {box-sizing:  border-box !important;}
+
+a {
+	align: center;
+	color: #000000;
+		font-size: 15px;
+		letter-spacing: .1em;
+    text-decoration: none;
+		font-family: "Assistant";
+}
+
+a:hover
+{
+     color:#000000;
+		 text-decoration: line-through;
+     cursor:pointer;
+}
+
+h1{
+	position: absolute;
+	font-family: 'Abel', serif;
+	font-size: 120px;
+	line-height: 140px;
+	margin-top: 2%;
+	letter-spacing: .1em;
+	margin-left: 10%;
+}
+
+
+h1:hover{
+	color: #b18f81;
+
+	font-family: 'Abel';
+}
+
+#button {
+	align: center;
+	display: block;
+	overflow: hidden;
+	padding: 1em 1em 1em 1em;
+	margin-bottom: 10px;
+	border: 1px solid black;
+	width: 20%;
+}
+
+h2{
+	font-family: 'Assistant', serif;
+	font-size: 27px;
+	letter-spacing: .2em;
+	text-align: left;
+	margin-top: -.3em;
+	padding-left: 2em;
+}
+
+h3{
+	font-family: 'Assistant', serif;
+	font-size: 20px;
+  line-height: 1em;
+	letter-spacing: .2em;
+  word-wrap: break-word;
+	text-align: center;
+	text-decoration: underline;
+	padding-left: 2em;
+}
+
+h4{
+	font-family: 'Assistant', serif;
+	font-size: 15px;
+	letter-spacing: .03em;
+	text-align: left;
+	line-height: -10em;
+	margin-top: -.3em;
+	padding-left: 2em;
+}
+
+p{
+	font-size: 11px;
+	width: 100%;
+}
+
+
+button {
+      font-size: 10px;
+      font-family: "Times";
+      color: #000000;
+      letting-spacing: 15px;
+      margin-left: 10px;
+      margin-top: -20px;
+      text-transform: uppercase;
+}
+
+.imagediv {
+
+    display:block;
+    width:100%;
+    margin: 1em;
+}
+
+.hvrbox,
+.hvrbox * {
+	box-sizing: border-box;
+}
+.hvrbox {
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	max-width: 100%;
+	height: auto;
+}
+.hvrbox img {
+	max-width: 100%;
+}
+.hvrbox .hvrbox-layer_bottom {
+	display: block;
+}
+.hvrbox .hvrbox-layer_top {
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.6);
+	color: #000;
+	padding: 8px;
+	-moz-transition: all 0.4s ease-in-out 0s;
+	-webkit-transition: all 0.4s ease-in-out 0s;
+	-ms-transition: all 0.4s ease-in-out 0s;
+	transition: all 0.4s ease-in-out 0s;
+}
+.hvrbox:hover .hvrbox-layer_top,
+.hvrbox.active .hvrbox-layer_top {
+	opacity: 1;
+}
+.hvrbox .hvrbox-text {
+  color: #fff;
+  font-family: 'Pt Sans';
+  letter-spacing: .1em;
+	text-align: center;
+	font-size: 12px;
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-moz-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+.hvrbox .hvrbox-text_mobile {
+  color: #fff;
+	font-size: 15px;
+	border-top: 1px solid rgb(179, 179, 179); /* for old browsers */
+	border-top: 1px solid rgba(179, 179, 179, 0.7);
+	margin-top: 5px;
+	padding-top: 2px;
+	display: none;
+}
+.hvrbox.active .hvrbox-text_mobile {
+	display: block;
+}
+
+img {
+    float:left;
+    padding: 10px;
+}
+
+.imagealign {
+    background-position: center bottom, center right;
+    background-repeat:no-repeat;
+}
+
+.navcontainer {
+	text-align: center;
+	background-color: #ffffff;
+	margin-top: 1em;
+	margin-right: auto;
+	margin-bottom: 1em;
+	margin-left: auto;
+	width: 90%;
+	max-width: 1250px;
+	padding: 2em;
+}
+
+.container {
+	background-color: #ffffff;
+	width: 60%;
+	height: 110%;
+	padding: 3em;
+	margin-top: -12em;
+}
+
+.container1 {
+	background-color: #b0a2a2;
+	max-width: 50%;
+	height: 84%;
+	padding: 5em;
+	margin-top: 3em;
+	margin-left: 37%;
+	padding-left: 10em;
+	grid-row: 2/2;
+	grid-column: 2/2;
+}
+
+#peoplelist{
+  margin-top: 10em;
+  align: center;
+}
